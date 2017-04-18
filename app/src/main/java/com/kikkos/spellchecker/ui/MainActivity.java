@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void clearSuggestedView() {
+        // remove text from suggestedView and making it invisible
         Log.v("TEST", "clearing suggestion");
         mTextView.setText("");
         if (mTextView.getVisibility() != View.GONE) {
@@ -118,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showSuggestedView(String data) {
+        // making suggestedView visilbe and setting the data as a Text
         Log.v("TEST", "suggesting: " + data);
         if (mTextView.getVisibility() != View.VISIBLE) {
             mTextView.setVisibility(View.VISIBLE);
