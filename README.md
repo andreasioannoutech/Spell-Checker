@@ -10,3 +10,5 @@ I am using the follow libraries: RXJava, Retrofit, RxBinding, Retrolambda and Bu
 3. Insert your Bing API key OKHttpClient interceptor (replace => "BING SPELL CHECK API KEY HERE")
 4. compile and run ap
 5. start typing into the EditText and you will get a suggestion bellow that into a TextView
+
+Update: Added Android Spell checker too
