@@ -1,4 +1,4 @@
-# SpellChecker App
+# Spell-Checker App
 
 In this app I perform a spell check of users input while typing with the Bing Spell Check API from Microsoft.
 I am using the follow libraries: RXJava, Retrofit, RxBinding, Retrolambda and ButterKnife.
@@ -11,4 +11,4 @@ I am using the follow libraries: RXJava, Retrofit, RxBinding, Retrolambda and Bu
 4. compile and run ap
 5. start typing into the EditText and you will get a suggestion bellow that into a TextView
 
-Update: Added Android Spell checker too
+Update: Implemented Android Spell checker as well
